@@ -1,0 +1,129 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.fonts, .text-styles {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.colors {
+    display: flex;
+    flex-direction: inline-flex;
+    gap: 20px;
+    align-items: center;
+}
+.color-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.color-box p {
+    margin: 5px 0;
+}
+
+.font-sample {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text-styles div {
+    margin-bottom: 20px;
+}
+
+.text-styles div p {
+    margin: 5px 0;
+}
+
+/* Colors for visual appeal */
+.color-box.primary {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.color-box.success {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.color-box.error {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.color-box.info {
+    background-color: #3498db;
+    color: white;
+}
+
+.color-box.warning {
+    background-color: #f1c40f;
+    color: white;
+}
+
+.color-box.purple {
+    background-color: #9b59b6;
+    color: white;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather:wght@900&family=Playfair+Display:wght@400&family=Roboto:wght@400;700&display=swap');
+
+/* Additional Font Styles */
+.font-sample {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-sample:nth-child(3) {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-sample:nth-child(4) {
+    font-family: 'Lato', sans-serif;
+}
+
+.font-sample:nth-child(5) {
+    font-family: 'Merriweather', serif;
+}
